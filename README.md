@@ -25,7 +25,7 @@ export ANDROID_HOME=/path/to/Android/Sdk
 export ANDROID_NDK_HOME=/path/to/Android/android-ndk-r21b
 
 
-go get -d ./...
+go get -insecure -d ./...
 
 # Build an AAR
 make android
